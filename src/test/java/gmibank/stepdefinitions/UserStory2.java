@@ -117,10 +117,10 @@ public class UserStory2 {
 
 
 
-    @When("user should not see any error message")
-    public void user_should_not_see_any_error_message() {
-     registrationPage.
-        }
+//    @When("user should not see any error message")
+//    public void user_should_not_see_any_error_message() {
+//     registrationPage.
+
 
 
 
