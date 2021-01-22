@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.019">
-<testcase classname="DataBase Test" name="TC02_kullanici database baglantini kontrol eder" time="11.996">
-<system-out><![CDATA[Given kullanici veritabanina baglanir.......................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.729">
+<testcase classname="Registration" name="Any_field_on_the_registration_page_should_not_be_left_blank" time="18.301">
+<system-out><![CDATA[Given user is on home page..................................................passed
+Given user click user icon..................................................passed
+Given user click register button............................................passed
+Given user should navigate to registration page.............................passed
+When user should click on SSN textbox.......................................passed
+And user should provide the SSN of the applicant............................passed
+When user click on first name box...........................................passed
+When user provide the first name............................................passed
+Given user click on the last name textbox...................................passed
+And user provide the applicant's last name..................................passed
+Given user click on address text button.....................................passed
+When user navigate the address..............................................passed
+Then user click mobilephoneNumber;..........................................passed
+And user navigate the mobilephoneNumber;....................................passed
+Given user click on the username TextBox;...................................passed
+When user navigate the username;............................................passed
+Given user click email text box;............................................passed
+When user navigate the email addres;........................................passed
+Given user click on the password textbox;...................................passed
+When user provide the password..............................................passed
+Given user click on the new password confirmation...........................passed
+When user navigate the new password confirmation............................passed
+Given user click on Register button.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
