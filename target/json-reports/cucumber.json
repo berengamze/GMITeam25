@@ -1,305 +1,198 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 5,
-        "name": "",
+        "start_timestamp": "2021-01-25T16:40:22.419Z",
+        "line": 3,
+        "name": "Register new users for GMI Bank",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 10326000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is on home page",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_is_on_home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 237000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click user icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_user_icon()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 184000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user click register button",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_register_button()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T02:46:51.976Z",
-        "line": 11,
-        "name": "Any_field_on_the_registration_page_should_not_be_left_blank",
-        "description": "",
-        "id": "registration;any-field-on-the-registration-page-should-not-be-left-blank",
+        "id": "registration;register-new-users-for-gmi-bank",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 59000000,
+              "duration": 4528000000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "user should navigate to registration page",
+            "line": 4,
+            "name": "user is on the registration page",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_should_navigate_to_registration_page()"
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_is_on_the_registration_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 98000000,
+              "duration": 253000000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user should click on SSN textbox",
+            "line": 5,
+            "name": "user enters ssn number as \"\u003cSSN\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_should_click_on_SSN_textbox()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user should provide the SSN of the applicant",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_should_provide_the_SSN_of_the_applicant()"
+              "arguments": [
+                {
+                  "val": "\"\u003cSSN\u003e\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_enters_ssn_number_as(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 130000000,
+              "duration": 343000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "user click on first name box",
+            "line": 6,
+            "name": "user enters firstname and lastname as \"\u003cfirstname\u003e\" and \"\u003clastname\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_first_name_box()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 198000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user provide the first name",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_provide_the_first_name()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user click on the last name textbox",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_last_name_textbox()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 150000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user provide the applicant\u0027s last name",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_provide_the_applicant_s_last_name()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user click on address text button",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_address_text_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 115000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user navigate the address",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_address()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user click mobilephoneNumber;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_mobilephoneNumber()"
+              "arguments": [
+                {
+                  "val": "\"\u003cfirstname\u003e\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"\u003clastname\u003e\"",
+                  "offset": 56
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_enters_firstname_and_lastname_as_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 145000000,
+              "duration": 141000000,
               "status": "passed"
             },
-            "line": 23,
-            "name": "user navigate the mobilephoneNumber;",
+            "line": 7,
+            "name": "user provides address \"\u003caddress\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_mobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "user click on the username TextBox;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_username_TextBox()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 136000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "user navigate the username;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_username()"
+              "arguments": [
+                {
+                  "val": "\"\u003caddress\u003e\"",
+                  "offset": 22
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_provides_address(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 141000000,
               "status": "passed"
             },
-            "line": 26,
-            "name": "user click email text box;",
+            "line": 8,
+            "name": "user provides mobilephone as \"\u003cmobilephone\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_email_text_box()"
+              "arguments": [
+                {
+                  "val": "\"\u003cmobilephone\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_provides_mobilephone_as(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           },
           {
             "result": {
               "duration": 104000000,
               "status": "passed"
             },
-            "line": 27,
-            "name": "user navigate the email addres;",
+            "line": 9,
+            "name": "user provides a username \"\u003cusername\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_email_addres()"
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_provides_a_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provides email id as \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_provides_email_id_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the password as \"\u003cfirstpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cfirstpassword\u003e\"",
+                  "offset": 28
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_enters_the_password_as(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 114000000,
               "status": "passed"
             },
-            "line": 28,
-            "name": "user click on the password textbox;",
+            "line": 12,
+            "name": "user confirms the new password \"\u003csecondpassword\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_password_textbox()"
+              "arguments": [
+                {
+                  "val": "\"\u003csecondpassword\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_confirms_the_new_password(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 106000000,
+              "duration": 310000000,
               "status": "passed"
             },
-            "line": 29,
-            "name": "user provide the password",
+            "line": 13,
+            "name": "user clicks on register button and sees the success message as \"\u003cmessage\u003e\"",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_provide_the_password()"
+              "arguments": [
+                {
+                  "val": "\"\u003cmessage\u003e\"",
+                  "offset": 63
+                }
+              ],
+              "location": "gmibank.stepdefinitions.RegistrationStepDefinitions.user_clicks_on_register_button_and_sees_the_success_message_as(java.lang.String)"
             },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 73000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "user click on the new password confirmation",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_new_password_confirmation()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 61000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "user navigate the new password confirmation",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_new_password_confirmation()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5133000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user click on Register button",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_Register_button()"
-            },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@User2"
+            "name": "@Registration"
           }
         ]
       }
@@ -308,14 +201,14 @@
     "description": "",
     "id": "registration",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/User2.feature",
+    "uri": "file:src/test/resources/features/registration.feature",
     "tags": [
       {
-        "name": "@User2",
+        "name": "@Registration",
         "type": "Tag",
         "location": {
-          "line": 2,
-          "column": 3
+          "line": 1,
+          "column": 1
         }
       }
     ]

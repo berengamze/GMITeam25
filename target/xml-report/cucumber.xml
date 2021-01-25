@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.729">
-<testcase classname="Registration" name="Any_field_on_the_registration_page_should_not_be_left_blank" time="18.301">
-<system-out><![CDATA[Given user is on home page..................................................passed
-Given user click user icon..................................................passed
-Given user click register button............................................passed
-Given user should navigate to registration page.............................passed
-When user should click on SSN textbox.......................................passed
-And user should provide the SSN of the applicant............................passed
-When user click on first name box...........................................passed
-When user provide the first name............................................passed
-Given user click on the last name textbox...................................passed
-And user provide the applicant's last name..................................passed
-Given user click on address text button.....................................passed
-When user navigate the address..............................................passed
-Then user click mobilephoneNumber;..........................................passed
-And user navigate the mobilephoneNumber;....................................passed
-Given user click on the username TextBox;...................................passed
-When user navigate the username;............................................passed
-Given user click email text box;............................................passed
-When user navigate the email addres;........................................passed
-Given user click on the password textbox;...................................passed
-When user provide the password..............................................passed
-Given user click on the new password confirmation...........................passed
-When user navigate the new password confirmation............................passed
-Given user click on Register button.........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.497">
+<testcase classname="Registration" name="Register new users for GMI Bank" time="6.338">
+<system-out><![CDATA[Given user is on the registration page......................................passed
+And user enters ssn number as "<SSN>".......................................passed
+Then user enters firstname and lastname as "<firstname>" and "<lastname>"...passed
+When user provides address "<address>"......................................passed
+Then user provides mobilephone as "<mobilephone>"...........................passed
+And user provides a username "<username>"...................................passed
+Then user provides email id as "<email>"....................................passed
+When user enters the password as "<firstpassword>"..........................passed
+And user confirms the new password "<secondpassword>".......................passed
+Then user clicks on register button and sees the success message as "<message>".passed
 ]]></system-out>
 </testcase>
 </testsuite>

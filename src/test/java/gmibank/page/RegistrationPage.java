@@ -14,7 +14,7 @@ public class RegistrationPage {
     @FindBy(id = "account-menu")
     public WebElement userIcon;
 
-    @FindBy(xpath = "(//a[@class='dropdown-item'])[2]")
+    @FindBy(id = "register-submit")
     public WebElement dropdownRegister;
 
     @FindBy(id="ssn")
@@ -55,4 +55,10 @@ public class RegistrationPage {
 
     @FindBy(xpath = "//div[@class='alert alert-warning fade show']")
     public WebElement errorMessage;
+    @FindBy(id = "account-menu")
+    public WebElement loginDropdown;
+
+
+    @FindBy(xpath = "//div[@role='alert']")
+    public WebElement registrationSuccessmessage;
 }
