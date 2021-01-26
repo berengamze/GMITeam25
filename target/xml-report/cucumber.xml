@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="11.577">
+<testcase classname="GMI Bank new Customer creation" name="TC 01_ User should create a new customer by filling out the required fields" time="6.455">
+<system-out><![CDATA[Given the user goes to gmi_login_url and signs in as an Employee............passed
+And user clicks on My Operations............................................passed
+And click on Manage Customers...............................................passed
+And click on Create a new Customer..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GMI Bank new Customer creation" name="TC 02_ The date cannot be typed earlier, in the past, at the time of creation a customer" time="0.509">
+<system-out><![CDATA[Given user clicks on create date box........................................passed
+And enter a date earlier than the time of creation a customer...............passed
+Then verify if it is an invalid input.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GMI Bank new Customer creation" name="TC 03_ User can select Zelle Enrolled optionally and save it" time="0.193">
+<system-out><![CDATA[Given user clicks on zelle enrolled.........................................passed
+Then verify if zelle enrolled is true.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GMI Bank new Customer creation" name="TC 04_ User can choose a user from the registration and it cannot be blank" time="0.525">
+<system-out><![CDATA[Given user selects a user from dropdown.....................................passed
+Then verify if selected user is valid.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GMI Bank new Customer creation" name="TC 05_ User box can not be blank" time="0.297">
+<system-out><![CDATA[Given user leaves user box empty............................................passed
+Then verify user box can not be blank.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GMI Bank new Customer creation" name="TC 06_ User can choose an account created on manage accounts" time="3.456">
+<system-out><![CDATA[Given user selects an account from account dropdown.........................passed
+Then verify if selected account is valid....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

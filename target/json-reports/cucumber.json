@@ -1,0 +1,298 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-26T01:25:19.323Z",
+        "line": 4,
+        "name": "TC 01_ User should create a new customer by filling out the required fields",
+        "description": "",
+        "id": "gmi-bank-new-customer-creation;tc-01--user-should-create-a-new-customer-by-filling-out-the-required-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5664000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user goes to gmi_login_url and signs in as an Employee",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.theUserGoesToGmi_login_urlAndSignsInAsAnEmployee()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on My Operations",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.user_clicks_on_My_Operations()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Manage Customers",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.click_on_Manage_Customers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Create a new Customer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.click_on_Create_a_new_Customer()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-26T01:25:25.788Z",
+        "line": 10,
+        "name": "TC 02_ The date cannot be typed earlier, in the past, at the time of creation a customer",
+        "description": "",
+        "id": "gmi-bank-new-customer-creation;tc-02--the-date-cannot-be-typed-earlier--in-the-past--at-the-time-of-creation-a-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on create date box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.user_clicks_on_create_date_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter a date earlier than the time of creation a customer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.enter_a_date_earlier_than_the_time_of_creation_a_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify if it is an invalid input",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.verify_if_it_is_an_invalid_input()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-26T01:25:26.299Z",
+        "line": 15,
+        "name": "TC 03_ User can select Zelle Enrolled optionally and save it",
+        "description": "",
+        "id": "gmi-bank-new-customer-creation;tc-03--user-can-select-zelle-enrolled-optionally-and-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on zelle enrolled",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.user_clicks_on_zelle_enrolled()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify if zelle enrolled is true",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.verify_if_zelle_enrolled_is_true()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-26T01:25:26.495Z",
+        "line": 19,
+        "name": "TC 04_ User can choose a user from the registration and it cannot be blank",
+        "description": "",
+        "id": "gmi-bank-new-customer-creation;tc-04--user-can-choose-a-user-from-the-registration-and-it-cannot-be-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user selects a user from dropdown",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.user_selects_a_user_from_dropdown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify if selected user is valid",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.verify_if_selected_user_is_valid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-26T01:25:27.022Z",
+        "line": 23,
+        "name": "TC 05_ User box can not be blank",
+        "description": "",
+        "id": "gmi-bank-new-customer-creation;tc-05--user-box-can-not-be-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user leaves user box empty",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.user_leaves_user_box_empty()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify user box can not be blank",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.verify_user_box_can_not_be_blank()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-26T01:25:27.321Z",
+        "line": 27,
+        "name": "TC 06_ User can choose an account created on manage accounts",
+        "description": "",
+        "id": "gmi-bank-new-customer-creation;tc-06--user-can-choose-an-account-created-on-manage-accounts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 811000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects an account from account dropdown",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.user_selects_an_account_from_account_dropdown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2636000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "verify if selected account is valid",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_SD.verify_if_selected_account_is_valid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmi"
+          }
+        ]
+      }
+    ],
+    "name": "GMI Bank new Customer creation",
+    "description": "",
+    "id": "gmi-bank-new-customer-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_11.feature",
+    "tags": [
+      {
+        "name": "@gmi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
