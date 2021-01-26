@@ -55,4 +55,13 @@ public class RegistrationPage {
 
     @FindBy(xpath = "//div[@class='alert alert-warning fade show']")
     public WebElement errorMessage;
+
+    @FindBy(xpath = "(//div[@class='invalid-feedback'])[1]")
+    public WebElement SSNerrorMessage;
+
+    @FindBy(xpath = "(//div[@class='invalid-feedback'])[1]")
+    public WebElement PhoneNumberErrorMessage;
+
+    @FindBy(xpath = "(//div[@class='invalid-feedback'])[1]")
+    public WebElement ErrorEmailMessage;
 }

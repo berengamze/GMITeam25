@@ -1,321 +1,111 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 5,
-        "name": "",
+        "start_timestamp": "2021-01-25T16:51:25.995Z",
+        "line": 3,
+        "name": "Read all customer",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 10326000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is on home page",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_is_on_home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 237000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click user icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_user_icon()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 184000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user click register button",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_register_button()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T02:46:51.976Z",
-        "line": 11,
-        "name": "Any_field_on_the_registration_page_should_not_be_left_blank",
-        "description": "",
-        "id": "registration;any-field-on-the-registration-page-should-not-be-left-blank",
+        "id": "gmi-bank-api-test;read-all-customer",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 59000000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 13,
-            "name": "user should navigate to registration page",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_should_navigate_to_registration_page()"
-            },
+            "line": 4,
+            "name": "user go to api end point \"https://www.gmibank.com/api/tp-customers\"",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 98000000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 14,
-            "name": "user should click on SSN textbox",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_should_click_on_SSN_textbox()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user should provide the SSN of the applicant",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_should_provide_the_SSN_of_the_applicant()"
-            },
+            "line": 5,
+            "name": "read all customer and sets create pojo class",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 130000000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 16,
-            "name": "user click on first name box",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_first_name_box()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 198000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user provide the first name",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_provide_the_first_name()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user click on the last name textbox",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_last_name_textbox()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 150000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user provide the applicant\u0027s last name",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_provide_the_applicant_s_last_name()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user click on address text button",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_address_text_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 115000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user navigate the address",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_address()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user click mobilephoneNumber;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_mobilephoneNumber()"
-            },
+            "line": 6,
+            "name": "validate data",
+            "match": {},
             "keyword": "Then "
-          },
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Gmi Bank Api Test",
+    "description": "",
+    "id": "gmi-bank-api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GmiBank.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-25T16:51:26.167Z",
+        "line": 3,
+        "name": "TC01_kullanici apinin calistini kontrol eder",
+        "description": "",
+        "id": "api-test;tc01-kullanici-apinin-calistini-kontrol-eder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 145000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
-            "line": 23,
-            "name": "user navigate the mobilephoneNumber;",
+            "line": 4,
+            "name": "kullanici kendisine verilen token ile apiye baglanir",
             "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_mobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "user click on the username TextBox;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_username_TextBox()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 136000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "user navigate the username;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_username()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 93000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "user click email text box;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_email_text_box()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 104000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "user navigate the email addres;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_email_addres()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 126000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "user click on the password textbox;",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_password_textbox()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 106000000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "user provide the password",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_provide_the_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 73000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "user click on the new password confirmation",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_the_new_password_confirmation()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 61000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "user navigate the new password confirmation",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_navigate_the_new_password_confirmation()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5133000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user click on Register button",
-            "match": {
-              "location": "gmibank.stepdefinitions.UserStory2.user_click_on_Register_button()"
+              "location": "gmibank.stepdefinitions.ApiStepDefinitions.kullanici_kendisine_verilen_token_ile_apiye_baglanir()"
             },
             "keyword": "Given "
           }
         ],
         "tags": [
           {
-            "name": "@User2"
+            "name": "@api"
           }
         ]
       }
     ],
-    "name": "Registration",
+    "name": "API Test",
     "description": "",
-    "id": "registration",
+    "id": "api-test",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/User2.feature",
+    "uri": "file:src/test/resources/features/api.feature",
     "tags": [
       {
-        "name": "@User2",
+        "name": "@api",
         "type": "Tag",
         "location": {
-          "line": 2,
-          "column": 3
+          "line": 1,
+          "column": 1
         }
       }
     ]
