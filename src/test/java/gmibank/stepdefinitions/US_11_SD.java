@@ -95,14 +95,12 @@ public class US_11_SD {
         boolean flag = false;
         for(WebElement w: options) {
             System.out.println(w.getText());
-
             if(w.equals(option)) {
                 flag = true;
                 break;
             }
         }
         Assert.assertTrue(flag);
-
     }
 
     @Given("user leaves user box empty")
