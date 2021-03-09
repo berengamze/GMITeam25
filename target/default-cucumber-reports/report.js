@@ -10,12 +10,15 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "TC 01_ User should create a new customer by filling out the required fields",
+  "name": "User should create a new customer by filling out the required fields",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
       "name": "@gmi"
+    },
+    {
+      "name": "@TC_1"
     }
   ]
 });
@@ -60,12 +63,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC 02_ The date cannot be typed earlier, in the past, at the time of creation a customer",
+  "name": "The date cannot be typed earlier, in the past, at the time of creation a customer",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
       "name": "@gmi"
+    },
+    {
+      "name": "@TC_2"
     }
   ]
 });
@@ -100,12 +106,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC 03_ User can select Zelle Enrolled optionally and save it",
+  "name": "User can select Zelle Enrolled optionally and save it",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
       "name": "@gmi"
+    },
+    {
+      "name": "@TC_3"
     }
   ]
 });
@@ -130,12 +139,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC 04_ User can choose a user from the registration and it cannot be blank",
+  "name": "User can choose a user from the registration and it cannot be blank",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
       "name": "@gmi"
+    },
+    {
+      "name": "@TC_4"
     }
   ]
 });
@@ -160,12 +172,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC 05_ User box can not be blank",
+  "name": "User box can not be blank",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
       "name": "@gmi"
+    },
+    {
+      "name": "@TC_5"
     }
   ]
 });
@@ -190,12 +205,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC 06_ User can choose an account created on manage accounts",
+  "name": "User can choose an account created on manage accounts",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
       "name": "@gmi"
+    },
+    {
+      "name": "@TC_6"
     }
   ]
 });

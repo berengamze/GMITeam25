@@ -3,17 +3,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-26T02:54:06.941Z",
+        "start_timestamp": "2021-03-02T21:41:15.149Z",
         "line": 4,
-        "name": "TC 01_ User should create a new customer by filling out the required fields",
+        "name": "User should create a new customer by filling out the required fields",
         "description": "",
-        "id": "gmi-bank-new-customer-creation;tc-01--user-should-create-a-new-customer-by-filling-out-the-required-fields",
+        "id": "gmi-bank-new-customer-creation;user-should-create-a-new-customer-by-filling-out-the-required-fields",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5136000000,
+              "duration": 5343000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 224000000,
+              "duration": 221000000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 81000000,
+              "duration": 49000000,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 185000000,
+              "duration": 161000000,
               "status": "passed"
             },
             "line": 8,
@@ -63,21 +63,24 @@
         "tags": [
           {
             "name": "@gmi"
+          },
+          {
+            "name": "@TC_1"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-26T02:54:12.645Z",
+        "start_timestamp": "2021-03-02T21:41:20.985Z",
         "line": 10,
-        "name": "TC 02_ The date cannot be typed earlier, in the past, at the time of creation a customer",
+        "name": "The date cannot be typed earlier, in the past, at the time of creation a customer",
         "description": "",
-        "id": "gmi-bank-new-customer-creation;tc-02--the-date-cannot-be-typed-earlier--in-the-past--at-the-time-of-creation-a-customer",
+        "id": "gmi-bank-new-customer-creation;the-date-cannot-be-typed-earlier--in-the-past--at-the-time-of-creation-a-customer",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 275000000,
+              "duration": 293000000,
               "status": "passed"
             },
             "line": 11,
@@ -89,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 174000000,
+              "duration": 163000000,
               "status": "passed"
             },
             "line": 12,
@@ -101,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 33000000,
+              "duration": 22000000,
               "status": "passed"
             },
             "line": 13,
@@ -115,21 +118,24 @@
         "tags": [
           {
             "name": "@gmi"
+          },
+          {
+            "name": "@TC_2"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-26T02:54:13.134Z",
+        "start_timestamp": "2021-03-02T21:41:21.468Z",
         "line": 15,
-        "name": "TC 03_ User can select Zelle Enrolled optionally and save it",
+        "name": "User can select Zelle Enrolled optionally and save it",
         "description": "",
-        "id": "gmi-bank-new-customer-creation;tc-03--user-can-select-zelle-enrolled-optionally-and-save-it",
+        "id": "gmi-bank-new-customer-creation;user-can-select-zelle-enrolled-optionally-and-save-it",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 168000000,
+              "duration": 191000000,
               "status": "passed"
             },
             "line": 16,
@@ -141,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 20000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 17,
@@ -155,21 +161,24 @@
         "tags": [
           {
             "name": "@gmi"
+          },
+          {
+            "name": "@TC_3"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-26T02:54:13.327Z",
+        "start_timestamp": "2021-03-02T21:41:21.684Z",
         "line": 19,
-        "name": "TC 04_ User can choose a user from the registration and it cannot be blank",
+        "name": "User can choose a user from the registration and it cannot be blank",
         "description": "",
-        "id": "gmi-bank-new-customer-creation;tc-04--user-can-choose-a-user-from-the-registration-and-it-cannot-be-blank",
+        "id": "gmi-bank-new-customer-creation;user-can-choose-a-user-from-the-registration-and-it-cannot-be-blank",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 259000000,
+              "duration": 282000000,
               "status": "passed"
             },
             "line": 20,
@@ -181,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 270000000,
+              "duration": 220000000,
               "status": "passed"
             },
             "line": 21,
@@ -195,21 +204,24 @@
         "tags": [
           {
             "name": "@gmi"
+          },
+          {
+            "name": "@TC_4"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-26T02:54:13.861Z",
+        "start_timestamp": "2021-03-02T21:41:22.191Z",
         "line": 23,
-        "name": "TC 05_ User box can not be blank",
+        "name": "User box can not be blank",
         "description": "",
-        "id": "gmi-bank-new-customer-creation;tc-05--user-box-can-not-be-blank",
+        "id": "gmi-bank-new-customer-creation;user-box-can-not-be-blank",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 208000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 24,
@@ -221,7 +233,7 @@
           },
           {
             "result": {
-              "duration": 64000000,
+              "duration": 75000000,
               "status": "passed"
             },
             "line": 25,
@@ -235,21 +247,24 @@
         "tags": [
           {
             "name": "@gmi"
+          },
+          {
+            "name": "@TC_5"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-26T02:54:14.218Z",
+        "start_timestamp": "2021-03-02T21:41:22.497Z",
         "line": 27,
-        "name": "TC 06_ User can choose an account created on manage accounts",
+        "name": "User can choose an account created on manage accounts",
         "description": "",
-        "id": "gmi-bank-new-customer-creation;tc-06--user-can-choose-an-account-created-on-manage-accounts",
+        "id": "gmi-bank-new-customer-creation;user-can-choose-an-account-created-on-manage-accounts",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 800000000,
+              "duration": 983000000,
               "status": "passed"
             },
             "line": 28,
@@ -261,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 2307000000,
+              "duration": 3535000000,
               "status": "passed"
             },
             "line": 29,
@@ -275,6 +290,9 @@
         "tags": [
           {
             "name": "@gmi"
+          },
+          {
+            "name": "@TC_6"
           }
         ]
       }
